@@ -1,5 +1,5 @@
 
-var serverURL = "https://stratacent-pcm-api.herokuapp.com/"
+var serverURL = "https://pcm-api-8o973.ondigitalocean.app/"
 var localURL = "https://pcm-api-8o973.ondigitalocean.app/"
 
 const getAPIURL = function(service) {
