@@ -1,0 +1,137 @@
+@import "~react-datepicker/dist/react-datepicker.css";
+@import '~bs-stepper/dist/css/bs-stepper.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.column {
+
+    width: 4rem;
+}
+
+.timesheet {
+    width: 100%;
+    height: 90%;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10%;   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.date-container {
+    display: flex;
+    align-items: center;
+}
+
+.date-label {
+    width: 6rem;
+}
+.year-month {
+    width: 80%;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    transition: all 100ms;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-subtext {
+    font-size: 0.75rem;
+}
+
+.activeStep {
+    background-color: #5294ce;
+}
+
+.activeStepLabel {
+    color: #5294ce;
+}
+
+.table-container {
+    width: 100%;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.detail-drawer {
+    height: 98%;
+}
+
+.toolbar-nav {
+    background-color: #07204a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.label-details {
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.label-details-value {
+    font-size: 15px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.action-btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.action-btn {
+    margin-left: 1rem;
+}
+
+.nav-class {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #07204a;
+    color: aliceblue;
+}
+
+.icon-bg {
+    color: #ee891d;
+}
+
+.table-header {
+    background-color:#07204a;
+    color: #ee891d;
+}
+
+.odd-row {
+   background-color: #cbd1e7;
+}
+
+.even-row {
+    background-color:  #e9ecef;
+}
+
+.header-title {
+    color: #ee891d;
+}
+
